@@ -39,8 +39,8 @@ jobs:
       
     - name: Deploy
       run: |
-        git config --global user.name 'edy.i'
-        git config --global user.email 'edy.i@abetterconsultancy.co'
+        git config --global user.name edy.i
+        git config --global user.email edy.i@abetterconsultancy.co
         git remote set-url origin https://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@github.com/test-github-action        
         npm run deploy
       env:
