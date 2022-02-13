@@ -38,6 +38,7 @@ jobs:
       run: npm run build
       
     - name: Deploy
+      uses:
       run: |
         git config --global user.name $user_name
         git config --global user.email $user_email
@@ -46,5 +47,5 @@ jobs:
       env:
         user_name: 'edy.i'
         user_email: 'edy.i@abetterconsultancy.co'
-        github_token: ${{ secrets.TEST_TOKEN }}
+        github_token: ${{ secrets.COBA_TOKEN }}
         repository: ${{ github.repository }}
