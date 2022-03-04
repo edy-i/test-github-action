@@ -4,7 +4,7 @@ function App() {
   return (
     <div className="App">
       <div className="App-content">
-          Welcome to Pull Request
+          Welcome to second Pull
       </div>
     </div>
   );
